@@ -321,5 +321,51 @@
     "tags": [
       "parrillas"
     ]
+  },
+  {
+    "id": "weber-smokey-joe-premium-37",
+    "name": "Weber Smokey Joe Premium - Barbacoa Portátil de Ø 37 cm",
+    "brand": "Weber",
+    "slug": "weber-smokey-joe-premium-barbacoa-portatil-de-37-cm",
+    "category": "parrillas",
+    "price": 89.99,
+    "originalPrice": null,
+    "currency": "EUR",
+    "rating": 4.5,
+    "reviewCount": 1301,
+    "image": "https://m.media-amazon.com/images/I/61RNYs9UdGL._AC_SL1500_.jpg",
+    "gallery": [],
+    "description": "tipo: Portátil / Carbón. combustible: Carbón. material: Acero Esmaltado",
+    "features": [
+      "tipo: Portátil / Carbón",
+      "combustible: Carbón",
+      "material: Acero Esmaltado",
+      "origen: EE. UU.",
+      "garantia: Garantía limitada Weber"
+    ],
+    "specs": {
+      "tipo": "Portátil / Carbón",
+      "combustible": "Carbón",
+      "material": "Acero Esmaltado",
+      "origen": "EE. UU.",
+      "garantia": "Garantía limitada Weber"
+    },
+    "combustible": "carbon",
+    "material": "acero-vitrificado",
+    "uso": "portatil",
+    "tipo": "portatil",
+    "rango-precio": "entre-25-100",
+    "pros": [],
+    "cons": [],
+    "gancho": null,
+    "veredicto": null,
+    "affiliateUrl": "https://amzn.to/4uQZkyz",
+    "asin": "",
+    "stock": true,
+    "featured": false,
+    "featuredTag": null,
+    "tags": [
+      "parrillas"
+    ]
   }
 ]

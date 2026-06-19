@@ -21,6 +21,28 @@
       "combustible": "carbon",
       "material": "acero-vitrificado",
       "tags": ["Carbón", "Más de 100€"]
+    },
+    {
+      "id": "weber-smokey-joe-premium-37",
+      "categoria": "parrillas",
+      "titulo": "Weber Smokey Joe Premium - Barbacoa Portátil de Ø 37 cm",
+      "marca": "Weber",
+      "imagen": "https://m.media-amazon.com/images/I/61RNYs9UdGL._AC_SL1500_.jpg",
+      "enlace": "https://amzn.to/4uQZkyz",
+      "precio": 89.99,
+      "valoracion": 4.5,
+      "reviews": 1301,
+      "caracteristicas": {
+        "tipo": "Portátil / Carbón",
+        "combustible": "Carbón",
+        "material": "Acero Esmaltado",
+        "origen": "EE. UU.",
+        "garantia": "Garantía limitada Weber"
+      },
+      "combustible": "carbon",
+      "material": "acero-vitrificado",
+      "uso": "portatil",
+      "tags": ["Portátil", "Menos de 100€"]
     }
   ]
 }

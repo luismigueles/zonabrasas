@@ -162,6 +162,8 @@ function normalizeFeedProduct(item, categoryId, globalFilters = {}) {
       else if (t === 'Más de 100') result['rango-precio'] = 'mas-100';
       else if (t === 'Más de 25€') result['rango-precio'] = 'entre-25-100';
       else if (t === 'Más de 25') result['rango-precio'] = 'entre-25-100';
+      else if (t === 'Menos de 100€') result['rango-precio'] = 'entre-25-100';
+      else if (t === 'Menos de 100') result['rango-precio'] = 'entre-25-100';
       else if (t === 'Deshuesar') result.tipo = 'deshuesador';
       else result.tipo = createSlug(t); // Chef → chef, Jamonero → jamonero, etc.
     });
