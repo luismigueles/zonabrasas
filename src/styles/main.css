@@ -8,9 +8,9 @@ ul { list-style: none; }
 
 /* === HEADER === */
 .header { background: #fff; border-bottom: 1px solid #eaeaea; position: sticky; top: 0; z-index: 100; }
-.header .container { display: flex; align-items: center; justify-content: space-between; height: 64px; }
+.header .container { display: flex; align-items: center; justify-content: space-between; height: 76px; }
 .logo { font-weight: 700; font-size: 1.4rem; color: #e63946; letter-spacing: -0.5px; display: flex; align-items: center; flex-shrink: 0; }
-.logo-img { height: 52px; width: auto; display: block; max-width: 280px; object-fit: contain; }
+.logo-img { height: 60px; width: auto; display: block; max-width: 320px; object-fit: contain; }
 .nav ul { display: flex; gap: 24px; }
 .nav a { font-size: 0.9rem; font-weight: 500; color: #555; transition: color .2s; }
 .nav a:hover { color: #e63946; }
@@ -116,7 +116,7 @@ ul { list-style: none; }
 
 /* === FILTER NAV === */
 .listing-layout { display: grid; grid-template-columns: 220px 1fr; gap: 32px; }
-.filter-nav { background: #fff; border-radius: 12px; border: 1px solid #eee; padding: 20px; align-self: start; position: sticky; top: 84px; }
+.filter-nav { background: #fff; border-radius: 12px; border: 1px solid #eee; padding: 20px; align-self: start; position: sticky; top: 96px; }
 .filter-nav h3 { font-size: 0.9rem; text-transform: uppercase; letter-spacing: 1px; color: #888; margin-bottom: 16px; }
 .filter-group { margin-bottom: 20px; }
 .filter-group h4 { font-size: 0.85rem; font-weight: 600; margin-bottom: 8px; color: #333; }
