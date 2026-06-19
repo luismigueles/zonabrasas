@@ -190,5 +190,49 @@
     "tags": [
       "cuchillos-barbacoa"
     ]
+  },
+  {
+    "id": "cuchillo-3claveles-alveolado-30",
+    "name": "3 Claveles Proflex - Cuchillo Carnicero Alveolado de 30 cm",
+    "brand": "3 Claveles",
+    "slug": "3-claveles-proflex-cuchillo-carnicero-alveolado-de-30-cm",
+    "category": "cuchillos-barbacoa",
+    "price": 35.95,
+    "originalPrice": null,
+    "currency": "EUR",
+    "rating": 5,
+    "reviewCount": 5,
+    "image": "https://m.media-amazon.com/images/I/51li2Noa-QL._AC_SL1500_.jpg",
+    "gallery": [],
+    "description": "tipo: Fileteador / Carnicero. material: Acero Inoxidable (Dureza 56 HRc). origen: España",
+    "features": [
+      "tipo: Fileteador / Carnicero",
+      "material: Acero Inoxidable (Dureza 56 HRc)",
+      "origen: España",
+      "garantia: Garantía del fabricante"
+    ],
+    "specs": {
+      "tipo": "Fileteador / Carnicero",
+      "material": "Acero Inoxidable (Dureza 56 HRc)",
+      "origen": "España",
+      "garantia": "Garantía del fabricante"
+    },
+    "combustible": null,
+    "material": "acero-inoxidable",
+    "uso": null,
+    "tipo": "filetear",
+    "rango-precio": "entre-25-100",
+    "pros": [],
+    "cons": [],
+    "gancho": null,
+    "veredicto": null,
+    "affiliateUrl": "https://amzn.to/4xC3nkC",
+    "asin": "",
+    "stock": true,
+    "featured": false,
+    "featuredTag": null,
+    "tags": [
+      "cuchillos-barbacoa"
+    ]
   }
 ]

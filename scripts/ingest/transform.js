@@ -155,8 +155,13 @@ function normalizeFeedProduct(item, categoryId, globalFilters = {}) {
     const result = {};
     tags.forEach(t => {
       if (t === 'Menos de 25€') result['rango-precio'] = 'menos-25';
+      else if (t === 'Menos de 25') result['rango-precio'] = 'menos-25';
       else if (t === 'Entre 25€ y 100€') result['rango-precio'] = 'entre-25-100';
+      else if (t === 'Entre 25 y 100') result['rango-precio'] = 'entre-25-100';
       else if (t === 'Más de 100€') result['rango-precio'] = 'mas-100';
+      else if (t === 'Más de 100') result['rango-precio'] = 'mas-100';
+      else if (t === 'Más de 25€') result['rango-precio'] = 'entre-25-100';
+      else if (t === 'Más de 25') result['rango-precio'] = 'entre-25-100';
       else result.tipo = createSlug(t); // Chef → chef, Jamonero → jamonero, etc.
     });
     return result;

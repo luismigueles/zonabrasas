@@ -18,6 +18,25 @@
       },
       "material": "acero-inoxidable",
       "tags": ["Chef", "Menos de 25€"]
+    },
+    {
+      "id": "cuchillo-3claveles-alveolado-30",
+      "categoria": "cuchillos",
+      "titulo": "3 Claveles Proflex - Cuchillo Carnicero Alveolado de 30 cm",
+      "marca": "3 Claveles",
+      "imagen": "https://m.media-amazon.com/images/I/51li2Noa-QL._AC_SL1500_.jpg",
+      "enlace": "https://amzn.to/4xC3nkC",
+      "precio": 35.95,
+      "valoracion": 5.0,
+      "reviews": 5,
+      "caracteristicas": {
+        "tipo": "Fileteador / Carnicero",
+        "material": "Acero Inoxidable (Dureza 56 HRc)",
+        "origen": "España",
+        "garantia": "Garantía del fabricante"
+      },
+      "material": "acero-inoxidable",
+      "tags": ["Filetear", "Más de 25€"]
     }
   ]
 }
