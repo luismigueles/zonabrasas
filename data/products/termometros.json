@@ -1,0 +1,152 @@
+[
+  {
+    "id": "bbq-term-03",
+    "name": "ThermoPro TP02S Termómetro de Lectura Instantánea",
+    "brand": "ThermoPro",
+    "slug": "thermopro-tp02s-termometro-de-lectura-instantanea",
+    "category": "termometros",
+    "price": 9.99,
+    "originalPrice": null,
+    "currency": "EUR",
+    "rating": 4.6,
+    "reviewCount": 39000,
+    "image": "https://m.media-amazon.com/images/I/6145yilthgL._AC_SL1500_.jpg",
+    "gallery": [],
+    "description": "Termómetro digital de lectura instantánea con sonda de acero inoxidable. Lectura en 1-3 segundos, ideal para carnes, barbacoa y cocina.",
+    "features": [
+      "Número de sondas: 1 sonda de lectura rápida (1-3 seg)",
+      "Alcance: Lectura instantánea directa en parrilla",
+      "Conexión: Pantalla digital integrada en mango",
+      "Autonomía: Pila LR44 (con apagado automático)"
+    ],
+    "specs": {
+      "numero_de_sondas": "1 sonda de lectura rápida (1-3 seg)",
+      "alcance": "Lectura instantánea directa en parrilla",
+      "conexion": "Pantalla digital integrada en mango",
+      "autonomia": "Pila LR44 (con apagado automático)"
+    },
+    "combustible": null,
+    "material": null,
+    "uso": "domestico",
+    "pros": [
+      "Lectura ultrarrápida en apenas 1-3 segundos para no tener la mano expuesta al calor de las brasas.",
+      "Sonda de acero inoxidable larga (13,5 cm) que permite llegar al centro de piezas grandes de carne con seguridad.",
+      "Rango amplísimo de temperatura (-50°C a 300°C) con una excelente precisión de +/-0.5°C.",
+      "Es el número 1 en ventas en Amazon con más de 39.000 valoraciones positivas."
+    ],
+    "cons": [
+      "No se puede dejar metido dentro del ahumador o barbacoa con la tapa cerrada; es solo para lecturas rápidas de control.",
+      "Funciona con pila de botón (LR44) en lugar de batería recargable por USB."
+    ],
+    "gancho": "La herramienta obligatoria en el bolsillo de cualquier parrillero. Un termómetro de lectura ultrarrápida por menos de 10€, perfecto para mediciones al momento sin complicaciones.",
+    "veredicto": "Es el termómetro complementario perfecto. Aunque no sirva para monitorizar un ahumado largo de 10 horas desde el móvil, es indispensable para medir el punto exacto de tus filetes, hamburguesas o comprobar la temperatura del agua y el aceite al instante.",
+    "affiliateUrl": "https://amzn.to/4oEu0BA",
+    "asin": "",
+    "stock": true,
+    "featured": true,
+    "featuredTag": null,
+    "tags": [
+      "termometros"
+    ]
+  },
+  {
+    "id": "thermopro-tp17-termometro-digital-con-doble-sonda",
+    "name": "ThermoPro TP17 Termómetro Digital con Doble Sonda",
+    "brand": "",
+    "slug": "thermopro-tp17-termometro-digital-con-doble-sonda",
+    "category": "termometros",
+    "price": 24.99,
+    "originalPrice": null,
+    "currency": "EUR",
+    "rating": 0,
+    "reviewCount": 0,
+    "image": "https://m.media-amazon.com/images/I/71LIzvzDB5S._AC_SL1500_.jpg",
+    "gallery": [],
+    "description": "num_sondas: 2 sondas de acero inoxidable. alcance: Con cable trenzado de alta resistencia. conexion: Pantalla LCD retroiluminada grande",
+    "features": [
+      "num_sondas: 2 sondas de acero inoxidable",
+      "alcance: Con cable trenzado de alta resistencia",
+      "conexion: Pantalla LCD retroiluminada grande",
+      "autonomia: 1 pila AAA (incluida)"
+    ],
+    "specs": {
+      "num_sondas": "2 sondas de acero inoxidable",
+      "alcance": "Con cable trenzado de alta resistencia",
+      "conexion": "Pantalla LCD retroiluminada grande",
+      "autonomia": "1 pila AAA (incluida)"
+    },
+    "combustible": null,
+    "material": null,
+    "uso": "domestico",
+    "pros": [
+      "Doble sonda de acero que te permite medir dos piezas de carne a la vez o usar una para la carne y otra para medir el calor interno de la parrilla.",
+      "Pantalla gigante retroiluminada, ideal para controlar tus cocinados nocturnos o en días muy soleados.",
+      "Modo de alarma programable: te avisa con un pitido exacto cuando la carne alcanza la temperatura que tú le hayas marcado.",
+      "Base magnética y soporte para fijarlo cómodamente en el lateral de la barbacoa o la mesa auxiliar."
+    ],
+    "cons": [
+      "Depende de cables, por lo que debes tener cuidado de no pillarlos bruscamente con la tapa metálica pesada.",
+      "No tiene conexión Bluetooth ni Wi-Fi, tienes que estar cerca de la pantalla para ver la temperatura o escuchar la alarma."
+    ],
+    "gancho": "El todoterreno de las barbacoas. Si buscas controlar la temperatura de la carne y del propio ahumador al mismo tiempo sin gastar lo que cuesta un sistema inalámbrico, este es tu modelo.",
+    "veredicto": "Es la mejor recomendación para el parrillero constante. Ofrece la precisión y funciones de modelos profesionales que duplican su precio, siendo perfecto para ahumados largos como costillas o paletas de cerdo donde necesitas controlar el ambiente interno de la barbacoa de forma continua.",
+    "affiliateUrl": "https://amzn.to/4xF7MDm",
+    "asin": "",
+    "stock": true,
+    "featured": true,
+    "featuredTag": "Nuestra Recomendación",
+    "tags": [
+      "termometros"
+    ]
+  },
+  {
+    "id": "meater-pro-2-plus-termometro-inteligente-inalambrico",
+    "name": "MEATER Pro / 2 Plus | Termómetro Inteligente Inalámbrico",
+    "brand": "",
+    "slug": "meater-pro-2-plus-termometro-inteligente-inalambrico",
+    "category": "termometros",
+    "price": 129,
+    "originalPrice": null,
+    "currency": "EUR",
+    "rating": 0,
+    "reviewCount": 0,
+    "image": "https://m.media-amazon.com/images/I/71QvOJtdf7L._SL1500_.jpg",
+    "gallery": [],
+    "description": "num_sondas: 1 sonda inalámbrica multi-sensor de alta precisión. alcance: Alcance extendido de gran longitud (Bluetooth y WiFi). conexion: Totalmente inalámbrico mediante App inteligente",
+    "features": [
+      "num_sondas: 1 sonda inalámbrica multi-sensor de alta precisión",
+      "alcance: Alcance extendido de gran longitud (Bluetooth y WiFi)",
+      "conexion: Totalmente inalámbrico mediante App inteligente",
+      "autonomia: Sonda recargable (base cargadora con 1 pila AAA)"
+    ],
+    "specs": {
+      "num_sondas": "1 sonda inalámbrica multi-sensor de alta precisión",
+      "alcance": "Alcance extendido de gran longitud (Bluetooth y WiFi)",
+      "conexion": "Totalmente inalámbrico mediante App inteligente",
+      "autonomia": "Sonda recargable (base cargadora con 1 pila AAA)"
+    },
+    "combustible": null,
+    "material": null,
+    "uso": "domestico",
+    "pros": [
+      "Resistencia térmica extrema de hasta 1000°F (537°C), lo que permite usarlo en barbacoas de alta temperatura y sellados intensos.",
+      "100% libre de cables, ideal para usar con espadas giratorias (rotisserie) o ahumadores pesados.",
+      "Múltiples sensores internos de precisión que miden con exactitud milimétrica el punto real del centro de la carne.",
+      "Aplicación móvil premium con un estimador avanzado que calcula al segundo cuánto tiempo le queda de reposo y cocinado a la pieza."
+    ],
+    "cons": [
+      "Su precio es elevado, requiriendo una inversión inicial considerable para los que solo hacen parrilladas casuales.",
+      "Al ser una sola sonda, si cocinas un brisket y un pulled pork al mismo tiempo, te faltará otra vía de control."
+    ],
+    "gancho": "La tecnología de cocina más avanzada del mercado. La nueva generación Pro / 2 Plus rompe los límites de resistencia térmica, permitiéndote usarlo incluso a fuego directo o freidoras sin miedo a dañarlo.",
+    "veredicto": "Es la elección definitiva para el parrillero que busca lo mejor de lo mejor sin escatimar. Su nueva estructura metálica reforzada soluciona los problemas de alcance de los modelos anteriores, convirtiéndolo en la herramienta definitiva para ahumados largos de competición y asados premium de corte grueso.",
+    "affiliateUrl": "https://amzn.to/4g0x20N",
+    "asin": "",
+    "stock": true,
+    "featured": true,
+    "featuredTag": "El Más Profesional",
+    "tags": [
+      "termometros"
+    ]
+  }
+]

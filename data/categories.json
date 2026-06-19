@@ -1,0 +1,42 @@
+[
+  {
+    "id": "cuchillos-barbacoa",
+    "name": "Cuchillos de Barbacoa",
+    "slug": "cuchillos-barbacoa",
+    "description": "Los mejores cuchillos para barbacoa y carnes. Encuentra cuchillos de chef, jamoneros, deshuesadores y más.",
+    "parent": null,
+    "image": "/assets/img/cat-cuchillos.jpg",
+    "tags": ["barbacoa", "cuchillos", "cocina", "carne"],
+    "filters": ["material", "uso"]
+  },
+  {
+    "id": "parrillas",
+    "name": "Parrillas y Barbacoas",
+    "slug": "parrillas",
+    "description": "Parrillas eléctricas, de gas y carbón. Compara las mejores barbacoas del mercado.",
+    "parent": null,
+    "image": "/assets/img/cat-parrillas.jpg",
+    "tags": ["barbacoa", "parrillas", "carbon", "gas"],
+    "filters": ["combustible", "material", "uso"]
+  },
+  {
+    "id": "accesorios-barbacoa",
+    "name": "Accesorios de Barbacoa",
+    "slug": "accesorios-barbacoa",
+    "description": "Todo lo necesario para tu barbacoa: utensilios, fundas, termómetros y más.",
+    "parent": null,
+    "image": "/assets/img/cat-accesorios.jpg",
+    "tags": ["barbacoa", "accesorios", "utensilios"],
+    "filters": ["material", "uso"]
+  },
+  {
+    "id": "termometros",
+    "name": "Termómetros para Barbacoa",
+    "slug": "termometros",
+    "description": "Termómetros digitales y de sonda para barbacoa, ahumados y cocina. Encuentra el mejor termómetro para tu parrilla.",
+    "parent": null,
+    "image": "/assets/img/cat-termometros.jpg",
+    "tags": ["barbacoa", "termometros", "temperatura", "sondas"],
+    "filters": ["uso"]
+  }
+]

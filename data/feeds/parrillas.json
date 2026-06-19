@@ -1,0 +1,54 @@
+{
+  "categoria": "parrillas",
+  "filtros": {
+    "material": "acero-inoxidable"
+  },
+  "productos": [
+    {
+      "ID_Producto": "parrilla-electrica-2000w",
+      "Nombre": "Parrilla Eléctrica 2000W Sin Humo",
+      "Marca": "Prince Castle",
+      "Precio": 129.99,
+      "Precio_Original": 159.99,
+      "Valoracion": 4.6,
+      "Resenas": 289,
+      "URL_Afiliado": "https://www.amazon.es/dp/B07PN9T1KJ?tag=luismi-21",
+      "Imagen_URL": "/assets/img/products/parrilla-electrica.jpg",
+      "Descripcion": "Parrilla eléctrica de alta potencia con tecnología sin humo. Ideal para interiores y balcones.",
+      "Destacado": true,
+      "combustible": "electrico",
+      "uso": "domestico",
+      "Especificaciones_Tecnicas": [
+        {"clave": "Potencia", "valor": "2000W"},
+        {"clave": "Superficie", "valor": "40x30 cm"},
+        {"clave": "Material", "valor": "Acero inoxidable + antiadherente"},
+        {"clave": "Peso", "valor": "4.2 kg"},
+        {"clave": "Tipo", "valor": "Eléctrica"}
+      ],
+      "Pros": ["Sin humo, ideal para interiores", "Calentamiento rápido en 3 minutos", "Fácil de limpiar: bandeja extraíble"],
+      "Contras": ["Ocupa bastante espacio en la encimera", "Cable de alimentación algo corto (1.2m)"]
+    },
+    {
+      "ID_Producto": "parrilla-carbon-weber-50cm",
+      "Nombre": "Parrilla de Carbón Portátil 50cm Weber",
+      "Marca": "Weber",
+      "Precio": 89.99,
+      "Valoracion": 4.8,
+      "Resenas": 512,
+      "URL_Afiliado": "https://www.amazon.es/dp/B001GTHH8C?tag=luismi-21",
+      "Imagen_URL": "/assets/img/products/parrilla-carbon.jpg",
+      "Descripcion": "Parrilla de carbón clásica con tapa y termómetro. La mejor relación calidad-precio de Weber.",
+      "Destacado": true,
+      "combustible": "carbon",
+      "uso": "portatil",
+      "Especificaciones_Tecnicas": [
+        {"clave": "Superficie", "valor": "50 cm diámetro"},
+        {"clave": "Material", "valor": "Acero esmaltado"},
+        {"clave": "Peso", "valor": "12.5 kg"},
+        {"clave": "Tipo", "valor": "Carbón"}
+      ],
+      "Pros": ["Calidad Weber garantizada", "Sabor ahumado auténtico", "Sistema de limpieza One-Touch"],
+      "Contras": ["Requiere carbón vegetal", "Tiempo de preparación más largo"]
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+<div class="container product-page">
+  <%- include('../partials/breadcrumbs', { crumbs }) %>
+
+  <div class="product-main">
+    <div class="product-gallery">
+      <img src="<%= product.image %>" alt="<%= product.name %>" width="600" height="600">
+    </div>
+
+    <div class="product-info">
+      <h1><%= product.name %></h1>
+      <p class="brand">Marca: <strong><%= product.brand %></strong></p>
+
+      <%- include('../partials/filter-badges', { product, allFilters }) %>
+      <% if (product.rating > 0) { %>
+      <div class="rating-large">
+        <span class="stars">
+          <% for (let i = 1; i <= 5; i++) { %>
+          <span class="star <%= i <= Math.round(product.rating) ? 'filled' : '' %>">&#9733;</span>
+          <% } %>
+        </span>
+        <span class="rating-value"><%= product.rating %></span>
+        <span class="review-count">(<%= product.reviewCount %> valoraciones)</span>
+      </div>
+      <% } %>
+
+      <div class="pricing-large">
+        <% if (product.originalPrice) { %>
+        <span class="original-price"><%= product.originalPrice.toFixed(2) %> &euro;</span>
+        <% } %>
+        <span class="current-price"><%= product.price.toFixed(2) %> &euro;</span>
+      </div>
+
+      <%- include('../partials/cta-button', { url: product.affiliateUrl, text: 'Ver mejor precio en Amazon', price: product.price.toFixed(2) + ' €' }) %>
+    </div>
+  </div>
+
+  <!-- Regla de Oro #1: El Gancho -->
+  <% if (aiContent && aiContent.gancho) { %>
+  <section class="hook-section">
+    <p class="hook-text"><%= aiContent.gancho %></p>
+  </section>
+  <% } %>
+
+  <!-- Regla de Oro #1: Ficha de Datos Cruzados -->
+  <section class="specs-section">
+    <h2>Ficha t&eacute;cnica</h2>
+    <table class="specs-table">
+      <% Object.keys(product.specs).forEach(key => { %>
+      <tr>
+        <th><%= key %></th>
+        <td><%= product.specs[key] %></td>
+      </tr>
+      <% }) %>
+    </table>
+  </section>
+
+  <% if (aiContent && aiContent.ficha_datos) { %>
+  <section class="data-sheet-section">
+    <h2>Lo que importa de verdad</h2>
+    <div class="data-sheet"><%- aiContent.ficha_datos.replace(/\n/g, '<br>') %></div>
+  </section>
+  <% } %>
+
+  <!-- Regla de Oro #1: Pros/Contras Traducidos -->
+  <section class="pros-cons">
+    <div class="pros">
+      <h3>Pros</h3>
+      <ul>
+        <% if (aiContent && aiContent.pros_traducidos && aiContent.pros_traducidos.length) { %>
+          <% aiContent.pros_traducidos.forEach(p => { %>
+          <li><%= p %></li>
+          <% }) %>
+        <% } else { %>
+          <% product.pros.forEach(p => { %>
+          <li><%= p %></li>
+          <% }) %>
+        <% } %>
+      </ul>
+    </div>
+    <div class="cons">
+      <h3>Contras</h3>
+      <ul>
+        <% if (aiContent && aiContent.contras_traducidos && aiContent.contras_traducidos.length) { %>
+          <% aiContent.contras_traducidos.forEach(c => { %>
+          <li><%= c %></li>
+          <% }) %>
+        <% } else { %>
+          <% product.cons.forEach(c => { %>
+          <li><%= c %></li>
+          <% }) %>
+        <% } %>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Regla de Oro #1: El Veredicto -->
+  <% if (aiContent && aiContent.veredicto) { %>
+  <section class="verdict-section">
+    <h2>Veredicto: &iquest;Para qui&eacute;n es?</h2>
+    <p class="verdict-text"><%= aiContent.veredicto %></p>
+  </section>
+  <% } %>
+</div>

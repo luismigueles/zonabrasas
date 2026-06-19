@@ -1,0 +1,35 @@
+[
+  {
+    "id": "combustible",
+    "name": "Tipo de Combustible",
+    "icon": "🔥",
+    "options": [
+      { "id": "carbon", "name": "Carbón" },
+      { "id": "gas", "name": "Gas" },
+      { "id": "pellets", "name": "Pellets" },
+      { "id": "lena", "name": "Leña" },
+      { "id": "electrico", "name": "Eléctrico" }
+    ]
+  },
+  {
+    "id": "material",
+    "name": "Material",
+    "icon": "⚙️",
+    "options": [
+      { "id": "acero-inoxidable", "name": "Acero inoxidable" },
+      { "id": "hierro-fundido", "name": "Hierro fundido" },
+      { "id": "ceramica", "name": "Cerámica" }
+    ]
+  },
+  {
+    "id": "uso",
+    "name": "Uso",
+    "icon": "🎯",
+    "options": [
+      { "id": "profesional", "name": "Profesional" },
+      { "id": "domestico", "name": "Doméstico" },
+      { "id": "portatil", "name": "Portátil" },
+      { "id": "camping", "name": "Camping" }
+    ]
+  }
+]

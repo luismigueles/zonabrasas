@@ -1,0 +1,45 @@
+<section class="hero">
+  <div class="container">
+    <h1>Las mejores comparativas y recomendaciones de productos</h1>
+    <p>Analizamos y comparamos los mejores productos del mercado para ayudarte a elegir.</p>
+  </div>
+</section>
+
+<section class="featured-products">
+  <div class="container">
+    <h2>Productos destacados</h2>
+    <div class="product-grid">
+      <% featured.forEach(p => { %>
+      <%- include('../partials/product-card', { product: p, allFilters }) %>
+      <% }) %>
+    </div>
+  </div>
+</section>
+
+<section class="categories-section">
+  <div class="container">
+    <h2>Categor&iacute;as</h2>
+    <div class="category-grid">
+      <% categories.forEach(cat => { %>
+      <a href="/<%= cat.slug %>/" class="category-card">
+        <h3><%= cat.name %></h3>
+        <p><%= cat.description %></p>
+      </a>
+      <% }) %>
+    </div>
+  </div>
+</section>
+
+<section class="comparisons-section">
+  <div class="container">
+    <h2>&Uacute;ltimas comparativas</h2>
+    <div class="comparisons-list">
+      <% comparisons.forEach(c => { %>
+      <a href="/<%= c.slug %>/" class="comparison-card">
+        <h3><%= c.title %></h3>
+        <p><%= c.description %></p>
+      </a>
+      <% }) %>
+    </div>
+  </div>
+</section>

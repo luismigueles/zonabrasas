@@ -1,0 +1,18 @@
+<header class="header">
+  <div class="container">
+    <a href="/" class="logo">
+  <% if (typeof logoUrl !== 'undefined' && logoUrl) { %>
+    <img src="<%= logoUrl %>" alt="<%= siteName %>" class="logo-img">
+  <% } else { %>
+    <%= siteName %>
+  <% } %>
+</a>
+    <nav class="nav" aria-label="Navegación principal">
+      <ul>
+        <% categories.forEach(cat => { %>
+        <li><a href="/<%= cat.slug %>/"><%= cat.name %></a></li>
+        <% }) %>
+      </ul>
+    </nav>
+  </div>
+</header>

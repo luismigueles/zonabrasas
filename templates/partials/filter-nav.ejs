@@ -1,0 +1,36 @@
+<%
+function filterName(filterId, optionId) {
+  const f = allFilters.find(f => f.id === filterId);
+  if (!f) return optionId;
+  const o = f.options.find(o => o.id === optionId);
+  return o ? o.name : optionId;
+}
+%>
+<%
+function hasAnyProduct(filterId) {
+  if (!filterCounts[filterId]) return false;
+  return Object.values(filterCounts[filterId]).some(c => c > 0);
+}
+%>
+<aside class="filter-nav">
+  <h3>Filtrar por</h3>
+  <% categoryFilters.forEach(filterId => { %>
+    <% const filterDef = allFilters.find(f => f.id === filterId); %>
+    <% if (!filterDef || !hasAnyProduct(filterId)) return; %>
+    <div class="filter-group">
+      <h4><%= filterDef.icon %> <%= filterDef.name %></h4>
+      <ul>
+        <% filterDef.options.forEach(opt => { %>
+          <% var count = filterCounts[filterId] && filterCounts[filterId][opt.id] ? filterCounts[filterId][opt.id] : 0; %>
+          <% if (count === 0) return; %>
+          <li>
+            <a href="/<%= categorySlug %>/<%= filterId %>-<%= opt.id %>/" class="filter-link">
+              <%= opt.name %>
+              <span class="filter-count">(<%= count %>)</span>
+            </a>
+          </li>
+        <% }) %>
+      </ul>
+    </div>
+  <% }) %>
+</aside>

@@ -1,0 +1,25 @@
+<%
+function filterName(filterId, optionId) {
+  if (!allFilters) return optionId;
+  const f = allFilters.find(f => f.id === filterId);
+  if (!f) return optionId;
+  const o = f.options.find(o => o.id === optionId);
+  return o ? o.name : optionId;
+}
+function filterIcon(filterId) {
+  if (!allFilters) return '';
+  const f = allFilters.find(f => f.id === filterId);
+  return f ? f.icon : '';
+}
+%>
+<div class="filter-badges">
+  <% if (product.combustible) { %>
+  <span class="badge badge-combustible"><%= filterIcon('combustible') %> <%= filterName('combustible', product.combustible) %></span>
+  <% } %>
+  <% if (product.material) { %>
+  <span class="badge badge-material"><%= filterIcon('material') %> <%= filterName('material', product.material) %></span>
+  <% } %>
+  <% if (product.uso) { %>
+  <span class="badge badge-uso"><%= filterIcon('uso') %> <%= filterName('uso', product.uso) %></span>
+  <% } %>
+</div>

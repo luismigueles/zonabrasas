@@ -1,0 +1,94 @@
+{
+  "categoria": "termometros",
+  "productos": [
+    {
+      "ID_Producto": "bbq-term-03",
+      "Nombre": "ThermoPro TP02S Termómetro de Lectura Instantánea",
+      "Marca": "ThermoPro",
+      "Precio": 9.99,
+      "URL_Afiliado": "https://amzn.to/4oEu0BA",
+      "Imagen_URL": "https://m.media-amazon.com/images/I/6145yilthgL._AC_SL1500_.jpg",
+      "Descripcion": "Termómetro digital de lectura instantánea con sonda de acero inoxidable. Lectura en 1-3 segundos, ideal para carnes, barbacoa y cocina.",
+      "Destacado": true,
+      "uso": "domestico",
+      "Valoracion": 4.6,
+      "Resenas": 39000,
+      "Especificaciones_Tecnicas": [
+        {"clave": "Número de sondas", "valor": "1 sonda de lectura rápida (1-3 seg)"},
+        {"clave": "Alcance", "valor": "Lectura instantánea directa en parrilla"},
+        {"clave": "Conexión", "valor": "Pantalla digital integrada en mango"},
+        {"clave": "Autonomía", "valor": "Pila LR44 (con apagado automático)"}
+      ],
+      "Pros": [
+        "Lectura ultrarrápida en apenas 1-3 segundos para no tener la mano expuesta al calor de las brasas.",
+        "Sonda de acero inoxidable larga (13,5 cm) que permite llegar al centro de piezas grandes de carne con seguridad.",
+        "Rango amplísimo de temperatura (-50°C a 300°C) con una excelente precisión de +/-0.5°C.",
+        "Es el número 1 en ventas en Amazon con más de 39.000 valoraciones positivas."
+      ],
+      "Contras": [
+        "No se puede dejar metido dentro del ahumador o barbacoa con la tapa cerrada; es solo para lecturas rápidas de control.",
+        "Funciona con pila de botón (LR44) en lugar de batería recargable por USB."
+      ],
+      "Gancho": "La herramienta obligatoria en el bolsillo de cualquier parrillero. Un termómetro de lectura ultrarrápida por menos de 10€, perfecto para mediciones al momento sin complicaciones.",
+      "Veredicto": "Es el termómetro complementario perfecto. Aunque no sirva para monitorizar un ahumado largo de 10 horas desde el móvil, es indispensable para medir el punto exacto de tus filetes, hamburguesas o comprobar la temperatura del agua y el aceite al instante."
+    },
+    {
+      "id": "bbq-term-04",
+      "nombre": "ThermoPro TP17 Termómetro Digital con Doble Sonda",
+      "precio_actual": 24.99,
+      "url_afiliado": "https://amzn.to/4xF7MDm",
+      "imagen_url": "https://m.media-amazon.com/images/I/71LIzvzDB5S._AC_SL1500_.jpg",
+      "destacado_tag": "Nuestra Recomendación",
+      "especificaciones": {
+        "num_sondas": "2 sondas de acero inoxidable",
+        "alcance": "Con cable trenzado de alta resistencia",
+        "conexion": "Pantalla LCD retroiluminada grande",
+        "autonomia": "1 pila AAA (incluida)"
+      },
+      "uso": "domestico",
+      "analisis_ia": {
+        "gancho": "El todoterreno de las barbacoas. Si buscas controlar la temperatura de la carne y del propio ahumador al mismo tiempo sin gastar lo que cuesta un sistema inalámbrico, este es tu modelo.",
+        "pros": [
+          "Doble sonda de acero que te permite medir dos piezas de carne a la vez o usar una para la carne y otra para medir el calor interno de la parrilla.",
+          "Pantalla gigante retroiluminada, ideal para controlar tus cocinados nocturnos o en días muy soleados.",
+          "Modo de alarma programable: te avisa con un pitido exacto cuando la carne alcanza la temperatura que tú le hayas marcado.",
+          "Base magnética y soporte para fijarlo cómodamente en el lateral de la barbacoa o la mesa auxiliar."
+        ],
+        "contras": [
+          "Depende de cables, por lo que debes tener cuidado de no pillarlos bruscamente con la tapa metálica pesada.",
+          "No tiene conexión Bluetooth ni Wi-Fi, tienes que estar cerca de la pantalla para ver la temperatura o escuchar la alarma."
+        ],
+        "veredicto": "Es la mejor recomendación para el parrillero constante. Ofrece la precisión y funciones de modelos profesionales que duplican su precio, siendo perfecto para ahumados largos como costillas o paletas de cerdo donde necesitas controlar el ambiente interno de la barbacoa de forma continua."
+      }
+    },
+    {
+      "id": "bbq-term-05",
+      "nombre": "MEATER Pro / 2 Plus | Termómetro Inteligente Inalámbrico",
+      "precio_actual": 129.00,
+      "url_afiliado": "https://amzn.to/4g0x20N",
+      "imagen_url": "https://m.media-amazon.com/images/I/71QvOJtdf7L._SL1500_.jpg",
+      "destacado_tag": "El Más Profesional",
+      "uso": "domestico",
+      "especificaciones": {
+        "num_sondas": "1 sonda inalámbrica multi-sensor de alta precisión",
+        "alcance": "Alcance extendido de gran longitud (Bluetooth y WiFi)",
+        "conexion": "Totalmente inalámbrico mediante App inteligente",
+        "autonomia": "Sonda recargable (base cargadora con 1 pila AAA)"
+      },
+      "analisis_ia": {
+        "gancho": "La tecnología de cocina más avanzada del mercado. La nueva generación Pro / 2 Plus rompe los límites de resistencia térmica, permitiéndote usarlo incluso a fuego directo o freidoras sin miedo a dañarlo.",
+        "pros": [
+          "Resistencia térmica extrema de hasta 1000°F (537°C), lo que permite usarlo en barbacoas de alta temperatura y sellados intensos.",
+          "100% libre de cables, ideal para usar con espadas giratorias (rotisserie) o ahumadores pesados.",
+          "Múltiples sensores internos de precisión que miden con exactitud milimétrica el punto real del centro de la carne.",
+          "Aplicación móvil premium con un estimador avanzado que calcula al segundo cuánto tiempo le queda de reposo y cocinado a la pieza."
+        ],
+        "contras": [
+          "Su precio es elevado, requiriendo una inversión inicial considerable para los que solo hacen parrilladas casuales.",
+          "Al ser una sola sonda, si cocinas un brisket y un pulled pork al mismo tiempo, te faltará otra vía de control."
+        ],
+        "veredicto": "Es la elección definitiva para el parrillero que busca lo mejor de lo mejor sin escatimar. Su nueva estructura metálica reforzada soluciona los problemas de alcance de los modelos anteriores, convirtiéndolo en la herramienta definitiva para ahumados largos de competición y asados premium de corte grueso."
+      }
+    }
+  ]
+}

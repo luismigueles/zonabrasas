@@ -1,0 +1,279 @@
+[
+  {
+    "id": "parrilla-electrica",
+    "name": "Parrilla Eléctrica 2000W Sin Humo",
+    "brand": "Prince Castle",
+    "slug": "parrilla-electrica-prince-castle",
+    "category": "parrillas",
+    "price": 129.99,
+    "originalPrice": 159.99,
+    "currency": "EUR",
+    "rating": 4.6,
+    "reviewCount": 289,
+    "image": "/assets/img/products/parrilla-electrica.jpg",
+    "gallery": [],
+    "description": "Parrilla eléctrica de alta potencia con tecnología sin humo. Ideal para interiores y balcones.",
+    "features": [
+      "Tecnología sin humo",
+      "2000W de potencia",
+      "Superficie antiadherente 40x30cm",
+      "Bandeja recogegrasas extraíble",
+      "Control ajustable de temperatura"
+    ],
+    "specs": {
+      "potencia": "2000W",
+      "superficie": "40x30 cm",
+      "material": "Acero inoxidable + antiadherente",
+      "peso": "4.2 kg",
+      "tipo": "Eléctrica"
+    },
+    "combustible": "electrico",
+    "material": "acero-inoxidable",
+    "uso": "domestico",
+    "pros": [
+      "Sin humo",
+      "Calentamiento rápido",
+      "Fácil de limpiar"
+    ],
+    "cons": [
+      "Ocupa espacio",
+      "Cable algo corto"
+    ],
+    "affiliateUrl": "https://www.amazon.es/dp/B07PN9T1KJ?tag=luismi-21",
+    "asin": "B07PN9T1KJ",
+    "stock": true,
+    "featured": true,
+    "tags": [
+      "parrillas",
+      "electrica",
+      "interior",
+      "sin-humo"
+    ]
+  },
+  {
+    "id": "parrilla-carbon",
+    "name": "Parrilla de Carbón Portátil 50cm",
+    "brand": "Weber",
+    "slug": "parrilla-carbon-weber",
+    "category": "parrillas",
+    "price": 89.99,
+    "originalPrice": null,
+    "currency": "EUR",
+    "rating": 4.8,
+    "reviewCount": 512,
+    "image": "/assets/img/products/parrilla-carbon.jpg",
+    "gallery": [],
+    "description": "Parrilla de carbón clásica con tapa y termómetro. La mejor relación calidad-precio de Weber.",
+    "features": [
+      "Diámetro 50cm",
+      "Tapa con termómetro incorporado",
+      "Sistema de limpieza One-Touch",
+      "Ruedas para transporte",
+      "Acero esmaltado resistente"
+    ],
+    "specs": {
+      "potencia": null,
+      "superficie": "50 cm diámetro",
+      "material": "Acero esmaltado",
+      "peso": "12.5 kg",
+      "tipo": "Carbón"
+    },
+    "combustible": "carbon",
+    "material": "acero-inoxidable",
+    "uso": "portatil",
+    "pros": [
+      "Calidad Weber",
+      "Resultado ahumado auténtico",
+      "Durabilidad"
+    ],
+    "cons": [
+      "Requiere carbón",
+      "Tiempo de preparación largo"
+    ],
+    "affiliateUrl": "https://www.amazon.es/dp/B001GTHH8C?tag=luismi-21",
+    "asin": "B001GTHH8C",
+    "stock": true,
+    "featured": true,
+    "tags": [
+      "parrillas",
+      "carbon",
+      "weber",
+      "portatil"
+    ]
+  },
+  {
+    "id": "parrilla-gas",
+    "name": "Barbacoa de Gas 3 Quemadores",
+    "brand": "Broil King",
+    "slug": "barbacoa-gas-broil-king",
+    "category": "parrillas",
+    "price": 399.99,
+    "originalPrice": 499.99,
+    "currency": "EUR",
+    "rating": 4.5,
+    "reviewCount": 178,
+    "image": "/assets/img/products/parrilla-gas.jpg",
+    "gallery": [],
+    "description": "Barbacoa de gas profesional con 3 quemadores de acero inoxidable. Amplia superficie de cocción.",
+    "features": [
+      "3 quemadores de acero inoxidable",
+      "Superficie total 60x45cm",
+      "Encendido electrónico",
+      "Termómetro en tapa",
+      "Mesas laterales plegables"
+    ],
+    "specs": {
+      "potencia": "10.5 kW",
+      "superficie": "60x45 cm",
+      "material": "Acero inoxidable",
+      "peso": "28 kg",
+      "tipo": "Gas"
+    },
+    "combustible": "gas",
+    "material": "acero-inoxidable",
+    "uso": "profesional",
+    "pros": [
+      "Potente",
+      "Fácil encendido",
+      "Varias zonas de calor"
+    ],
+    "cons": [
+      "Pesada",
+      "Ocupa mucho espacio",
+      "Precio"
+    ],
+    "affiliateUrl": "https://www.amazon.es/dp/B01N7K5T8Z?tag=luismi-21",
+    "asin": "B01N7K5T8Z",
+    "stock": true,
+    "featured": false,
+    "tags": [
+      "parrillas",
+      "gas",
+      "broil-king",
+      "profesional"
+    ]
+  },
+  {
+    "id": "parrilla-electrica-2000w",
+    "name": "Parrilla Eléctrica 2000W Sin Humo",
+    "brand": "",
+    "slug": "parrilla-electrica-2000w-sin-humo",
+    "category": "parrillas",
+    "price": 129.99,
+    "originalPrice": null,
+    "currency": "EUR",
+    "rating": 0,
+    "reviewCount": 0,
+    "image": "/assets/img/products/parrilla-electrica.jpg",
+    "gallery": [],
+    "description": "Potencia: 2000W. Superficie: 40x30 cm. Material: Acero inoxidable + antiadherente",
+    "features": [
+      "Potencia: 2000W",
+      "Superficie: 40x30 cm",
+      "Material: Acero inoxidable + antiadherente",
+      "Peso: 4.2 kg",
+      "Tipo: Eléctrica"
+    ],
+    "specs": {
+      "potencia": "2000W",
+      "superficie": "40x30 cm",
+      "material": "Acero inoxidable + antiadherente",
+      "peso": "4.2 kg",
+      "tipo": "Eléctrica"
+    },
+    "combustible": null,
+    "material": null,
+    "uso": null,
+    "pros": [],
+    "cons": [],
+    "affiliateUrl": "https://www.amazon.es/dp/B07PN9T1KJ?tag=luismi-21",
+    "asin": "",
+    "stock": true,
+    "featured": false,
+    "tags": [
+      "parrillas"
+    ]
+  },
+  {
+    "id": "parrilla-carbon-weber-50cm",
+    "name": "Parrilla de Carbón Portátil 50cm Weber",
+    "brand": "",
+    "slug": "parrilla-de-carbon-portatil-50cm-weber",
+    "category": "parrillas",
+    "price": 89.99,
+    "originalPrice": null,
+    "currency": "EUR",
+    "rating": 0,
+    "reviewCount": 0,
+    "image": "/assets/img/products/parrilla-carbon.jpg",
+    "gallery": [],
+    "description": "Potencia: null. Superficie: 50 cm diámetro. Material: Acero esmaltado",
+    "features": [
+      "Potencia: null",
+      "Superficie: 50 cm diámetro",
+      "Material: Acero esmaltado",
+      "Peso: 12.5 kg",
+      "Tipo: Carbón"
+    ],
+    "specs": {
+      "potencia": null,
+      "superficie": "50 cm diámetro",
+      "material": "Acero esmaltado",
+      "peso": "12.5 kg",
+      "tipo": "Carbón"
+    },
+    "combustible": null,
+    "material": null,
+    "uso": null,
+    "pros": [],
+    "cons": [],
+    "affiliateUrl": "https://www.amazon.es/dp/B001GTHH8C?tag=luismi-21",
+    "asin": "",
+    "stock": true,
+    "featured": false,
+    "tags": [
+      "parrillas"
+    ]
+  },
+  {
+    "id": "barbacoa-gas-broil-king",
+    "name": "Barbacoa de Gas 3 Quemadores Broil King",
+    "brand": "",
+    "slug": "barbacoa-de-gas-3-quemadores-broil-king",
+    "category": "parrillas",
+    "price": 399.99,
+    "originalPrice": null,
+    "currency": "EUR",
+    "rating": 0,
+    "reviewCount": 0,
+    "image": "/assets/img/products/parrilla-gas.jpg",
+    "gallery": [],
+    "description": "Potencia: 10.5 kW. Superficie: 60x45 cm. Material: Acero inoxidable",
+    "features": [
+      "Potencia: 10.5 kW",
+      "Superficie: 60x45 cm",
+      "Material: Acero inoxidable",
+      "Peso: 28 kg",
+      "Tipo: Gas"
+    ],
+    "specs": {
+      "potencia": "10.5 kW",
+      "superficie": "60x45 cm",
+      "material": "Acero inoxidable",
+      "peso": "28 kg",
+      "tipo": "Gas"
+    },
+    "combustible": null,
+    "material": null,
+    "uso": null,
+    "pros": [],
+    "cons": [],
+    "affiliateUrl": "https://www.amazon.es/dp/B01N7K5T8Z?tag=luismi-21",
+    "asin": "",
+    "stock": true,
+    "featured": false,
+    "tags": [
+      "parrillas"
+    ]
+  }
+]

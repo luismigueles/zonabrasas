@@ -1,0 +1,41 @@
+<div class="container listing-page">
+  <%- include('../partials/breadcrumbs', { crumbs }) %>
+
+  <h1><%= title %></h1>
+  <p class="page-description"><%= description %></p>
+
+  <% if (typeof allFilters !== 'undefined' && typeof categoryFilters !== 'undefined') { %>
+  <div class="listing-layout">
+    <%- include('../partials/filter-nav', {
+      allFilters,
+      categoryFilters,
+      filterCounts,
+      categorySlug
+    }) %>
+    <div class="listing-content">
+  <% } %>
+
+  <section class="product-grid-section">
+    <div class="product-grid">
+      <% products.forEach(p => { %>
+      <%- include('../partials/product-card', { product: p, allFilters }) %>
+      <% }) %>
+    </div>
+  </section>
+
+  <% if (comparison) { %>
+  <section class="comparison-section">
+    <h2>Comparativa r&aacute;pida</h2>
+    <%- include('../partials/comparison-table', {
+      products: products,
+      specKeys: ['material', 'peso', 'combustible', 'uso'],
+      allFilters
+    }) %>
+  </section>
+  <% } %>
+
+  <% if (typeof allFilters !== 'undefined' && typeof categoryFilters !== 'undefined') { %>
+    </div>
+  </div>
+  <% } %>
+</div>

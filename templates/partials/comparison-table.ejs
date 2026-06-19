@@ -1,0 +1,92 @@
+<%
+function filterName(filterId, optionId) {
+  if (!allFilters) return optionId;
+  const f = allFilters.find(f => f.id === filterId);
+  if (!f) return optionId;
+  const o = f.options.find(o => o.id === optionId);
+  return o ? o.name : optionId;
+}
+%>
+<div class="comparison-table-wrapper">
+  <table class="comparison-table">
+    <thead>
+      <tr>
+        <th>Caracter&iacute;stica</th>
+        <% products.forEach(p => { %>
+        <th>
+          <%= p.name %>
+          <% if (p.dynamicTags && p.dynamicTags.length) { %>
+            <div class="th-tags">
+              <% p.dynamicTags.forEach(t => { %>
+              <span class="tag-dynamic <%= t.class %>"><%= t.label %></span>
+              <% }) %>
+            </div>
+          <% } %>
+        </th>
+        <% }) %>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Precio</td>
+        <% products.forEach(p => { %>
+        <td><strong><%= p.price.toFixed(2) %> &euro;</strong></td>
+        <% }) %>
+      </tr>
+      <tr>
+        <td>Valoraci&oacute;n</td>
+        <% products.forEach(p => { %>
+        <td><span class="stars-small"><%- '&#9733;'.repeat(Math.round(p.rating)) %></span> <%= p.rating %></td>
+        <% }) %>
+      </tr>
+      <tr>
+        <td>Marca</td>
+        <% products.forEach(p => { %>
+        <td><%= p.brand %></td>
+        <% }) %>
+      </tr>
+      <% if (products[0] && products[0].combustible) { %>
+      <tr>
+        <td>Combustible</td>
+        <% products.forEach(p => { %>
+        <td><span class="badge badge-combustible"><%= filterName('combustible', p.combustible) %></span></td>
+        <% }) %>
+      </tr>
+      <% } %>
+      <% if (products[0] && products[0].uso) { %>
+      <tr>
+        <td>Uso</td>
+        <% products.forEach(p => { %>
+        <td><span class="badge badge-uso"><%= filterName('uso', p.uso) %></span></td>
+        <% }) %>
+      </tr>
+      <% } %>
+      <% if (products[0] && products[0].material) { %>
+      <tr>
+        <td>Material</td>
+        <% products.forEach(p => { %>
+        <td><span class="badge badge-material"><%= filterName('material', p.material) %></span></td>
+        <% }) %>
+      </tr>
+      <% } %>
+      <% if (specKeys && specKeys.length) { %>
+        <% specKeys.forEach(key => { %>
+        <tr>
+          <td><%= key %></td>
+          <% products.forEach(p => { %>
+          <td><%= p.specs[key] || '-' %></td>
+          <% }) %>
+        </tr>
+        <% }) %>
+      <% } %>
+      <tr class="cta-row">
+        <td></td>
+        <% products.forEach(p => { %>
+        <td>
+          <%- include('cta-button', { url: p.affiliateUrl, text: 'Ver oferta', price: p.price.toFixed(2) + ' €' }) %>
+        </td>
+        <% }) %>
+      </tr>
+    </tbody>
+  </table>
+</div>

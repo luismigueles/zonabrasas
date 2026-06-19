@@ -1,0 +1,39 @@
+{
+  "categoria": "ID_DE_LA_CATEGORIA",
+  "filtros": {
+    "combustible": null,
+    "material": null,
+    "uso": null
+  },
+  "productos": [
+    {
+      "ID_Producto": "ejemplo-producto-1",
+      "Nombre": "Nombre del Producto",
+      "Marca": "Marca del producto",
+      "Precio": 99.99,
+      "Precio_Original": 129.99,
+      "Moneda": "EUR",
+      "Valoracion": 4.5,
+      "Resenas": 200,
+      "URL_Afiliado": "https://www.amazon.es/dp/ASINEJEMPLO?tag=luismi-21",
+      "Imagen_URL": "/assets/img/products/ejemplo.jpg",
+      "Descripcion": "Descripción breve del producto y sus ventajas principales.",
+      "Destacado": false,
+      "combustible": "carbon",
+      "material": "acero-inoxidable",
+      "uso": "profesional",
+      "Especificaciones_Tecnicas": [
+        {"clave": "Potencia", "valor": "2000W"},
+        {"clave": "Peso", "valor": "5 kg"}
+      ],
+      "Pros": [
+        "Ventaja real número 1",
+        "Ventaja real número 2"
+      ],
+      "Contras": [
+        "Inconveniente real número 1",
+        "Inconveniente real número 2"
+      ]
+    }
+  ]
+}

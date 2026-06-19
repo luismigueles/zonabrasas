@@ -1,0 +1,25 @@
+<article class="product-card">
+  <a href="/<%= product.category %>/<%= product.slug %>/">
+    <div class="product-card-image">
+      <img src="<%= product.image %>" alt="<%= product.name %>" loading="lazy">
+    </div>
+    <h3><%= product.name %></h3>
+    <%- include('filter-badges', { product, allFilters }) %>
+    <% if (product.rating > 0) { %>
+    <div class="rating">
+      <span class="stars" aria-label="<%= product.rating %> sobre 5 estrellas">
+        <% for (let i = 1; i <= 5; i++) { %>
+        <span class="star <%= i <= Math.round(product.rating) ? 'filled' : '' %>">&#9733;</span>
+        <% } %>
+      </span>
+      <span class="reviews">(<%= product.reviewCount %>)</span>
+    </div>
+    <% } %>
+    <div class="pricing">
+      <% if (product.originalPrice) { %>
+      <span class="original-price"><%= product.originalPrice.toFixed(2) %> &euro;</span>
+      <% } %>
+      <span class="current-price"><%= product.price.toFixed(2) %> &euro;</span>
+    </div>
+  </a>
+</article>

@@ -1,0 +1,43 @@
+{
+  "site": {
+    "name": "ZonaBrasas",
+    "url": "https://zonabrasas.com",
+    "lang": "es",
+    "description": "Comparativas y recomendaciones de productos con análisis detallado",
+    "logo": "/assets/img/logo.png"
+  },
+  "feeds": {
+    "directory": "data/feeds",
+    "defaultProvider": "local",
+    "watch": false
+  },
+  "affiliate": {
+    "defaultNetwork": "amazon",
+    "trackingId": "luismi-21",
+    "networks": {
+      "amazon": {
+        "baseUrl": "https://www.amazon.es/dp/{ASIN}?tag={trackingId}",
+        "apiEndpoint": "https://webservices.amazon.es/paapi5/searchitems",
+        "apiKey": "AWS_ACCESS_KEY",
+        "apiSecret": "AWS_SECRET_KEY",
+        "associateTag": "luismi-21"
+      }
+    }
+  },
+  "seo": {
+    "defaultImage": "/assets/img/default-product.jpg",
+    "twitterHandle": "@webluismi",
+    "locale": "es_ES"
+  },
+  "ai": {
+    "provider": "openai",
+    "model": "gpt-4o-mini",
+    "apiKeyEnvVar": "OPENAI_API_KEY",
+    "temperature": 0.7,
+    "maxTokens": 600,
+    "language": "es",
+    "cacheEnabled": true,
+    "cacheDir": "data/content-cache",
+    "fallbackToTemplate": true
+  }
+}

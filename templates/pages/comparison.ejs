@@ -1,0 +1,51 @@
+<div class="container comparison-page">
+  <%- include('../partials/breadcrumbs', { crumbs }) %>
+
+  <!-- Regla de Oro #1: El Gancho -->
+  <% if (aiContent && aiContent.gancho) { %>
+  <section class="hook-section">
+    <p class="hook-text"><%= aiContent.gancho %></p>
+  </section>
+  <% } %>
+
+  <h1><%= title %></h1>
+  <p class="page-description"><%= description %></p>
+
+  <!-- Regla de Oro #2: Tabla Comparativa Automática con etiquetas -->
+  <%- include('../partials/comparison-table', { products, specKeys, allFilters }) %>
+
+  <% products.forEach(p => { %>
+  <section class="product-detail" id="<%= p.id %>">
+    <div class="product-detail-inner">
+      <% if (p.dynamicTags && p.dynamicTags.length) { %>
+      <div class="detail-tags">
+        <% p.dynamicTags.forEach(t => { %>
+        <span class="tag-dynamic <%= t.class %>"><%= t.label %></span>
+        <% }) %>
+      </div>
+      <% } %>
+      <div class="detail-image">
+        <img src="<%= p.image %>" alt="<%= p.name %>" loading="lazy" width="300" height="300">
+      </div>
+      <div class="detail-info">
+        <h2><%= p.name %></h2>
+        <p><%= p.description %></p>
+        <ul class="features-list">
+          <% p.features.forEach(f => { %>
+          <li><%= f %></li>
+          <% }) %>
+        </ul>
+        <%- include('../partials/cta-button', { url: p.affiliateUrl, text: 'Ver oferta', price: p.price.toFixed(2) + ' €' }) %>
+      </div>
+    </div>
+  </section>
+  <% }) %>
+
+  <!-- Regla de Oro #1: El Veredicto -->
+  <% if (aiContent && aiContent.veredicto) { %>
+  <section class="verdict-section">
+    <h2>Veredicto: &iquest;Cu&aacute;l elegir?</h2>
+    <p class="verdict-text"><%= aiContent.veredicto %></p>
+  </section>
+  <% } %>
+</div>

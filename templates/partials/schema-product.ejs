@@ -1,0 +1,26 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "<%= product.name %>",
+  "description": "<%= product.description %>",
+  "brand": {
+    "@type": "Brand",
+    "name": "<%= product.brand %>"
+  },
+  "offers": {
+    "@type": "Offer",
+    "price": "<%= product.price %>",
+    "priceCurrency": "<%= product.currency %>",
+    "availability": "<%= product.stock ? 'https://schema.org/InStock' : 'https://schema.org/OutOfStock' %>",
+    "url": "<%= product.affiliateUrl %>"
+  },
+  "image": "<%= product.image %>",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "<%= product.rating %>",
+    "reviewCount": "<%= product.reviewCount %>",
+    "bestRating": "5"
+  }
+}
+</script>

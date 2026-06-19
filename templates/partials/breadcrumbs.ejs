@@ -1,0 +1,14 @@
+<nav class="breadcrumbs" aria-label="Migas de pan">
+  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+    <% crumbs.forEach((crumb, i) => { %>
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <% if (i < crumbs.length - 1) { %>
+      <a itemprop="item" href="<%= crumb.url %>"><span itemprop="name"><%= crumb.name %></span></a>
+      <% } else { %>
+      <span itemprop="name"><%= crumb.name %></span>
+      <% } %>
+      <meta itemprop="position" content="<%= i + 1 %>">
+    </li>
+    <% }) %>
+  </ol>
+</nav>

@@ -1,0 +1,22 @@
+[
+  {
+    "id": "parrilla-electrica-vs-carbon",
+    "title": "Parrilla Eléctrica vs Carbón: ¿Cuál comprar?",
+    "slug": "parrilla-electrica-vs-carbon",
+    "description": "Comparativa completa entre parrillas eléctricas y de carbón. Analizamos ventajas, inconvenientes y cuál elegir según tus necesidades.",
+    "category": "parrillas",
+    "type": "vs",
+    "items": ["parrilla-electrica", "parrilla-carbon"],
+    "tags": ["comparativa", "parrillas", "electrica", "carbon"]
+  },
+  {
+    "id": "mejores-cuchillos-barbacoa",
+    "title": "Los 5 Mejores Cuchillos para Barbacoa 2026",
+    "slug": "mejores-cuchillos-barbacoa",
+    "description": "Selección de los mejores cuchillos para barbacoa del año. Desde cuchillos de chef hasta deshuesadores, analizados en detalle.",
+    "category": "cuchillos-barbacoa",
+    "type": "ranking",
+    "items": ["cuchillo-chef-8", "cuchillo-deshuesar", "cuchillo-jamon"],
+    "tags": ["mejores", "cuchillos", "barbacoa", "ranking"]
+  }
+]
