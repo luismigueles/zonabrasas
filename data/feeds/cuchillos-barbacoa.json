@@ -37,6 +37,25 @@
       },
       "material": "acero-inoxidable",
       "tags": ["Filetear", "Más de 25€"]
+    },
+    {
+      "id": "cuchillo-schwertkrone-deshuesar-13",
+      "categoria": "cuchillos",
+      "titulo": "Schwertkrone Solingen - Cuchillo de Deshuesar Profesional de 13 cm",
+      "marca": "Schwertkrone",
+      "imagen": "https://m.media-amazon.com/images/I/41sopfeZ9cL._AC_SL1080_.jpg",
+      "enlace": "https://amzn.to/4aJ4C7P",
+      "precio": 21.99,
+      "valoracion": 4.6,
+      "reviews": 510,
+      "caracteristicas": {
+        "tipo": "Deshuesar",
+        "material": "Acero Inoxidable 1.4034",
+        "origen": "Alemania",
+        "garantia": "Garantía del fabricante"
+      },
+      "material": "acero-inoxidable",
+      "tags": ["Deshuesar", "Menos de 25€"]
     }
   ]
 }
