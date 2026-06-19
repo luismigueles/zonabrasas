@@ -18,5 +18,15 @@
     "type": "ranking",
     "items": ["cuchillo-chef-8", "cuchillo-deshuesar", "cuchillo-jamon"],
     "tags": ["mejores", "cuchillos", "barbacoa", "ranking"]
+  },
+  {
+    "id": "mejores-termometros-barbacoa",
+    "title": "Los Mejores Termómetros para Barbacoa 2026",
+    "slug": "mejores-termometros-barbacoa",
+    "description": "Comparativa de los mejores termómetros para barbacoa. Desde lecturas instantáneas hasta sondas inalámbricas inteligentes.",
+    "category": "termometros",
+    "type": "ranking",
+    "items": ["bbq-term-03", "bbq-term-04", "bbq-term-05"],
+    "tags": ["mejores", "termometros", "barbacoa", "ranking"]
   }
 ]
