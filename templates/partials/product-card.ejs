@@ -1,5 +1,5 @@
 <article class="product-card">
-  <a href="/<%= product.category %>/<%= product.slug %>/">
+  <a href="/<%= product.category %>/<%= product.slug %>/" class="card-link">
     <div class="product-card-image">
       <img src="<%= product.image %>" alt="<%= product.name %>" loading="lazy">
     </div>
@@ -22,4 +22,5 @@
       <span class="current-price"><%= product.price.toFixed(2) %> &euro;</span>
     </div>
   </a>
+  <a href="<%= product.affiliateUrl %>" class="card-cta" rel="nofollow sponsored" target="_blank">Ver oferta</a>
 </article>
