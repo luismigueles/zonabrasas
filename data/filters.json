@@ -17,6 +17,7 @@
     "icon": "⚙️",
     "options": [
       { "id": "acero-inoxidable", "name": "Acero inoxidable" },
+      { "id": "acero-vitrificado", "name": "Acero vitrificado" },
       { "id": "hierro-fundido", "name": "Hierro fundido" },
       { "id": "ceramica", "name": "Cerámica" }
     ]

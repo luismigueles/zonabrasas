@@ -275,5 +275,51 @@
     "tags": [
       "parrillas"
     ]
+  },
+  {
+    "id": "weber-compact-kettle-57",
+    "name": "Weber Compact Kettle - Barbacoa de Carbón de Ø 57 cm",
+    "brand": "Weber",
+    "slug": "weber-compact-kettle-barbacoa-de-carbon-de-57-cm",
+    "category": "parrillas",
+    "price": 202.12,
+    "originalPrice": null,
+    "currency": "EUR",
+    "rating": 4.6,
+    "reviewCount": 10111,
+    "image": "https://m.media-amazon.com/images/I/71aR5dcoAVL._AC_SL1500_.jpg",
+    "gallery": [],
+    "description": "tipo: Carbón / Kettle. combustible: Carbón. material: Acero Vitrificado",
+    "features": [
+      "tipo: Carbón / Kettle",
+      "combustible: Carbón",
+      "material: Acero Vitrificado",
+      "origen: Diseño USA / Fabricado por Weber",
+      "garantia: Garantía limitada Weber"
+    ],
+    "specs": {
+      "tipo": "Carbón / Kettle",
+      "combustible": "Carbón",
+      "material": "Acero Vitrificado",
+      "origen": "Diseño USA / Fabricado por Weber",
+      "garantia": "Garantía limitada Weber"
+    },
+    "combustible": "carbon",
+    "material": "acero-vitrificado",
+    "uso": null,
+    "tipo": "carbon",
+    "rango-precio": "mas-100",
+    "pros": [],
+    "cons": [],
+    "gancho": null,
+    "veredicto": null,
+    "affiliateUrl": "https://amzn.to/3SCpAix",
+    "asin": "",
+    "stock": true,
+    "featured": false,
+    "featuredTag": null,
+    "tags": [
+      "parrillas"
+    ]
   }
 ]

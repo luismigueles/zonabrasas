@@ -17,7 +17,7 @@
     "parent": null,
     "image": "/assets/img/cat-parrillas.jpg",
     "tags": ["barbacoa", "parrillas", "carbon", "gas"],
-    "filters": ["combustible", "material", "uso"]
+    "filters": ["combustible", "material", "uso", "rango-precio"]
   },
   {
     "id": "accesorios-barbacoa",
