@@ -39,6 +39,8 @@
       "url_afiliado": "https://amzn.to/4xF7MDm",
       "imagen_url": "https://m.media-amazon.com/images/I/71LIzvzDB5S._AC_SL1500_.jpg",
       "destacado_tag": "Nuestra Recomendación",
+      "valoracion": 4.5,
+      "resenas": 18500,
       "especificaciones": {
         "num_sondas": "2 sondas de acero inoxidable",
         "alcance": "Con cable trenzado de alta resistencia",
@@ -68,6 +70,8 @@
       "url_afiliado": "https://amzn.to/4g0x20N",
       "imagen_url": "https://m.media-amazon.com/images/I/71QvOJtdf7L._SL1500_.jpg",
       "destacado_tag": "El Más Profesional",
+      "valoracion": 4.4,
+      "resenas": 9200,
       "uso": "domestico",
       "especificaciones": {
         "num_sondas": "1 sonda inalámbrica multi-sensor de alta precisión",
