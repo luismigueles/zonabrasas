@@ -10,17 +10,16 @@
       "Imagen_URL": "https://m.media-amazon.com/images/I/6145yilthgL._AC_SL1500_.jpg",
       "Descripcion": "Termómetro digital de lectura instantánea con sonda de acero inoxidable. Lectura en 1-3 segundos, ideal para carnes, barbacoa y cocina.",
       "Destacado": true,
-      "uso": "domestico",
       "tipo": "lectura-instantanea",
       "rango-precio": "menos-25",
       "Valoracion": 4.6,
       "Resenas": 39000,
-      "Especificaciones_Tecnicas": [
-        {"clave": "Número de sondas", "valor": "1 sonda de lectura rápida (1-3 seg)"},
-        {"clave": "Alcance", "valor": "Lectura instantánea directa en parrilla"},
-        {"clave": "Conexión", "valor": "Pantalla digital integrada en mango"},
-        {"clave": "Autonomía", "valor": "Pila LR44 (con apagado automático)"}
-      ],
+      "especificaciones": {
+        "num_sondas": "1 sonda de lectura rápida (1-3 seg)",
+        "alcance": "Lectura instantánea directa en parrilla",
+        "conexion": "Pantalla digital integrada en mango",
+        "autonomia": "Pila LR44 (con apagado automático)"
+      },
       "Pros": [
         "Lectura ultrarrápida en apenas 1-3 segundos para no tener la mano expuesta al calor de las brasas.",
         "Sonda de acero inoxidable larga (13,5 cm) que permite llegar al centro de piezas grandes de carne con seguridad.",
@@ -37,6 +36,7 @@
     {
       "id": "bbq-term-04",
       "nombre": "ThermoPro TP17 Termómetro Digital con Doble Sonda",
+      "marca": "ThermoPro",
       "precio_actual": 24.99,
       "url_afiliado": "https://amzn.to/4xF7MDm",
       "imagen_url": "https://m.media-amazon.com/images/I/71LIzvzDB5S._AC_SL1500_.jpg",
@@ -49,7 +49,6 @@
         "conexion": "Pantalla LCD retroiluminada grande",
         "autonomia": "1 pila AAA (incluida)"
       },
-      "uso": "domestico",
       "tipo": "con-cable",
       "rango-precio": "menos-25",
       "analisis_ia": {
@@ -70,13 +69,13 @@
     {
       "id": "bbq-term-05",
       "nombre": "MEATER Pro / 2 Plus | Termómetro Inteligente Inalámbrico",
+      "marca": "MEATER",
       "precio_actual": 129.00,
       "url_afiliado": "https://amzn.to/4g0x20N",
       "imagen_url": "https://m.media-amazon.com/images/I/71QvOJtdf7L._SL1500_.jpg",
       "destacado_tag": "El Más Profesional",
       "valoracion": 4.4,
       "resenas": 9200,
-      "uso": "domestico",
       "tipo": "inalambrico",
       "rango-precio": "mas-100",
       "especificaciones": {

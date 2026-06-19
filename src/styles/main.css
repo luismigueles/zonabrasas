@@ -81,11 +81,12 @@ ul { list-style: none; }
 .comparison-table-wrapper { overflow-x: auto; margin: 24px 0; }
 .comparison-table { width: 100%; border-collapse: collapse; background: #fff; border-radius: 8px; overflow: hidden; }
 .comparison-table th, .comparison-table td { padding: 14px 20px; text-align: center; border-bottom: 1px solid #eee; font-size: 0.9rem; }
-.comparison-table th { background: #1a1a2e; color: #fff; font-weight: 600; }
+.comparison-table th { background: #1a1a2e; color: #fff; font-weight: 600; vertical-align: middle; }
 .comparison-table th:first-child { text-align: left; }
 .comparison-table td:first-child { text-align: left; font-weight: 500; color: #555; }
 .comparison-table tr:hover td { background: #f8f9fa; }
-.cta-row td { background: #f8f9fa; }
+.cta-row td { background: #f8f9fa; padding: 20px; }
+.cta-row .cta-btn { margin: 0; }
 .stars-small { color: #f4a261; letter-spacing: 2px; }
 
 /* === CATEGORY CARDS === */

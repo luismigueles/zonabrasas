@@ -26,9 +26,16 @@
   <% if (comparison) { %>
   <section class="comparison-section">
     <h2>Comparativa r&aacute;pida</h2>
+    <%
+      var specKeysSet = {};
+      products.forEach(function(p) {
+        if (p.specs) Object.keys(p.specs).forEach(function(k) { specKeysSet[k] = true; });
+      });
+      var dynSpecKeys = Object.keys(specKeysSet);
+    %>
     <%- include('../partials/comparison-table', {
       products: products,
-      specKeys: ['material', 'peso', 'combustible', 'uso'],
+      specKeys: dynSpecKeys,
       allFilters
     }) %>
   </section>

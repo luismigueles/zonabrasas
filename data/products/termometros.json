@@ -14,20 +14,20 @@
     "gallery": [],
     "description": "Termómetro digital de lectura instantánea con sonda de acero inoxidable. Lectura en 1-3 segundos, ideal para carnes, barbacoa y cocina.",
     "features": [
-      "Número de sondas: 1 sonda de lectura rápida (1-3 seg)",
-      "Alcance: Lectura instantánea directa en parrilla",
-      "Conexión: Pantalla digital integrada en mango",
-      "Autonomía: Pila LR44 (con apagado automático)"
+      "num_sondas: 1 sonda de lectura rápida (1-3 seg)",
+      "alcance: Lectura instantánea directa en parrilla",
+      "conexion: Pantalla digital integrada en mango",
+      "autonomia: Pila LR44 (con apagado automático)"
     ],
     "specs": {
-      "numero_de_sondas": "1 sonda de lectura rápida (1-3 seg)",
+      "num_sondas": "1 sonda de lectura rápida (1-3 seg)",
       "alcance": "Lectura instantánea directa en parrilla",
       "conexion": "Pantalla digital integrada en mango",
       "autonomia": "Pila LR44 (con apagado automático)"
     },
     "combustible": null,
     "material": null,
-    "uso": "domestico",
+    "uso": null,
     "tipo": "lectura-instantanea",
     "rango-precio": "menos-25",
     "pros": [
@@ -54,7 +54,7 @@
   {
     "id": "thermopro-tp17-termometro-digital-con-doble-sonda",
     "name": "ThermoPro TP17 Termómetro Digital con Doble Sonda",
-    "brand": "",
+    "brand": "ThermoPro",
     "slug": "thermopro-tp17-termometro-digital-con-doble-sonda",
     "category": "termometros",
     "price": 24.99,
@@ -79,7 +79,7 @@
     },
     "combustible": null,
     "material": null,
-    "uso": "domestico",
+    "uso": null,
     "tipo": "con-cable",
     "rango-precio": "menos-25",
     "pros": [
@@ -106,7 +106,7 @@
   {
     "id": "meater-pro-2-plus-termometro-inteligente-inalambrico",
     "name": "MEATER Pro / 2 Plus | Termómetro Inteligente Inalámbrico",
-    "brand": "",
+    "brand": "MEATER",
     "slug": "meater-pro-2-plus-termometro-inteligente-inalambrico",
     "category": "termometros",
     "price": 129,
@@ -131,7 +131,7 @@
     },
     "combustible": null,
     "material": null,
-    "uso": "domestico",
+    "uso": null,
     "tipo": "inalambrico",
     "rango-precio": "mas-100",
     "pros": [
