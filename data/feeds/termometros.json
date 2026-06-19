@@ -11,6 +11,8 @@
       "Descripcion": "Termómetro digital de lectura instantánea con sonda de acero inoxidable. Lectura en 1-3 segundos, ideal para carnes, barbacoa y cocina.",
       "Destacado": true,
       "uso": "domestico",
+      "tipo": "lectura-instantanea",
+      "rango-precio": "menos-25",
       "Valoracion": 4.6,
       "Resenas": 39000,
       "Especificaciones_Tecnicas": [
@@ -48,6 +50,8 @@
         "autonomia": "1 pila AAA (incluida)"
       },
       "uso": "domestico",
+      "tipo": "con-cable",
+      "rango-precio": "menos-25",
       "analisis_ia": {
         "gancho": "El todoterreno de las barbacoas. Si buscas controlar la temperatura de la carne y del propio ahumador al mismo tiempo sin gastar lo que cuesta un sistema inalámbrico, este es tu modelo.",
         "pros": [
@@ -73,6 +77,8 @@
       "valoracion": 4.4,
       "resenas": 9200,
       "uso": "domestico",
+      "tipo": "inalambrico",
+      "rango-precio": "mas-100",
       "especificaciones": {
         "num_sondas": "1 sonda inalámbrica multi-sensor de alta precisión",
         "alcance": "Alcance extendido de gran longitud (Bluetooth y WiFi)",

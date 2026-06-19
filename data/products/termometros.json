@@ -28,6 +28,8 @@
     "combustible": null,
     "material": null,
     "uso": "domestico",
+    "tipo": "lectura-instantanea",
+    "rango-precio": "menos-25",
     "pros": [
       "Lectura ultrarrápida en apenas 1-3 segundos para no tener la mano expuesta al calor de las brasas.",
       "Sonda de acero inoxidable larga (13,5 cm) que permite llegar al centro de piezas grandes de carne con seguridad.",
@@ -78,6 +80,8 @@
     "combustible": null,
     "material": null,
     "uso": "domestico",
+    "tipo": "con-cable",
+    "rango-precio": "menos-25",
     "pros": [
       "Doble sonda de acero que te permite medir dos piezas de carne a la vez o usar una para la carne y otra para medir el calor interno de la parrilla.",
       "Pantalla gigante retroiluminada, ideal para controlar tus cocinados nocturnos o en días muy soleados.",
@@ -128,6 +132,8 @@
     "combustible": null,
     "material": null,
     "uso": "domestico",
+    "tipo": "inalambrico",
+    "rango-precio": "mas-100",
     "pros": [
       "Resistencia térmica extrema de hasta 1000°F (537°C), lo que permite usarlo en barbacoas de alta temperatura y sellados intensos.",
       "100% libre de cables, ideal para usar con espadas giratorias (rotisserie) o ahumadores pesados.",

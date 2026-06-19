@@ -22,4 +22,10 @@ function filterIcon(filterId) {
   <% if (product.uso) { %>
   <span class="badge badge-uso"><%= filterIcon('uso') %> <%= filterName('uso', product.uso) %></span>
   <% } %>
+  <% if (product.tipo) { %>
+  <span class="badge badge-tipo"><%= filterIcon('tipo') %> <%= filterName('tipo', product.tipo) %></span>
+  <% } %>
+  <% if (product['rango-precio']) { %>
+  <span class="badge badge-precio"><%= filterIcon('rango-precio') %> <%= filterName('rango-precio', product['rango-precio']) %></span>
+  <% } %>
 </div>

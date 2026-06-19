@@ -31,5 +31,24 @@
       { "id": "portatil", "name": "Portátil" },
       { "id": "camping", "name": "Camping" }
     ]
+  },
+  {
+    "id": "tipo",
+    "name": "Tipo",
+    "icon": "📡",
+    "options": [
+      { "id": "lectura-instantanea", "name": "Lectura Instantánea" },
+      { "id": "con-cable", "name": "Con Cable" },
+      { "id": "inalambrico", "name": "Inalámbrico" }
+    ]
+  },
+  {
+    "id": "rango-precio",
+    "name": "Precio",
+    "icon": "💰",
+    "options": [
+      { "id": "menos-25", "name": "Menos de 25€" },
+      { "id": "mas-100", "name": "Más de 100€" }
+    ]
   }
 ]

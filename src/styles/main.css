@@ -115,6 +115,8 @@ ul { list-style: none; }
 .badge-combustible { background: #fff3e0; color: #e65100; border: 1px solid #ffe0b2; }
 .badge-material { background: #e8f5e9; color: #2e7d32; border: 1px solid #c8e6c9; }
 .badge-uso { background: #e3f2fd; color: #1565c0; border: 1px solid #bbdefb; }
+.badge-tipo { background: #fce4ec; color: #c62828; border: 1px solid #f8bbd0; }
+.badge-precio { background: #e8f5e9; color: #2e7d32; border: 1px solid #c8e6c9; }
 
 /* === FILTER NAV === */
 .listing-layout { display: grid; grid-template-columns: 220px 1fr; gap: 32px; }

@@ -37,6 +37,6 @@
     "parent": null,
     "image": "/assets/img/cat-termometros.jpg",
     "tags": ["barbacoa", "termometros", "temperatura", "sondas"],
-    "filters": ["uso"]
+    "filters": ["tipo", "rango-precio"]
   }
 ]
