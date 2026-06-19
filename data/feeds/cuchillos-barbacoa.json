@@ -1,0 +1,23 @@
+{
+  "categoria": "cuchillos-barbacoa",
+  "productos": [
+    {
+      "id": "cuchillo-arcos-universal-20",
+      "titulo": "Arcos Serie Universal - Cuchillo de Cocinero de 200 mm",
+      "marca": "Arcos",
+      "imagen": "https://m.media-amazon.com/images/I/41LKcv-Q2iL._AC_SL1383_.jpg",
+      "enlace": "https://amzn.to/3QSkb6r",
+      "precio": 22.95,
+      "valoracion": 4.7,
+      "reviews": 660,
+      "caracteristicas": {
+        "tipo": "Chef / Cocinero",
+        "material": "Acero Inoxidable NITRUM",
+        "origen": "España",
+        "garantia": "10 años"
+      },
+      "material": "acero-inoxidable",
+      "tags": ["Chef", "Menos de 25€"]
+    }
+  ]
+}

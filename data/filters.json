@@ -35,11 +35,14 @@
   {
     "id": "tipo",
     "name": "Tipo",
-    "icon": "📡",
+    "icon": "🔪",
     "options": [
       { "id": "lectura-instantanea", "name": "Lectura Instantánea" },
       { "id": "con-cable", "name": "Con Cable" },
-      { "id": "inalambrico", "name": "Inalámbrico" }
+      { "id": "inalambrico", "name": "Inalámbrico" },
+      { "id": "chef", "name": "Chef / Cocinero" },
+      { "id": "jamonero", "name": "Jamonero" },
+      { "id": "deshuesador", "name": "Deshuesador" }
     ]
   },
   {
@@ -48,6 +51,7 @@
     "icon": "💰",
     "options": [
       { "id": "menos-25", "name": "Menos de 25€" },
+      { "id": "entre-25-100", "name": "Entre 25€ y 100€" },
       { "id": "mas-100", "name": "Más de 100€" }
     ]
   }

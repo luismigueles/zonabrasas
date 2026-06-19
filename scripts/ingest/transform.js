@@ -136,6 +136,12 @@ function normalizeFeedProduct(item, categoryId, globalFilters = {}) {
       specs[key] = valor;
       features.push(`${clave}: ${valor}`);
     });
+  } else if (item.caracteristicas && typeof item.caracteristicas === 'object') {
+    Object.entries(item.caracteristicas).forEach(([clave, valor]) => {
+      const key = createSlug(clave).replace(/-/g, '_');
+      specs[key] = valor;
+      features.push(`${clave}: ${valor}`);
+    });
   }
 
   const autoDescription = features.slice(0, 3).join('. ') || 'Sin descripción';
@@ -143,21 +149,38 @@ function normalizeFeedProduct(item, categoryId, globalFilters = {}) {
   // Extraer contenido de analisis_ia si existe (formato natural del usuario)
   const aiBlock = item.analisis_ia || {};
 
-  const id = item.ID_Producto || createSlug(item.nombre) || createSlug(item.Nombre);
-  const name = item.nombre || item.Nombre || 'Producto sin nombre';
+  // Mapear tags a filtros del sistema
+  function mapTagToFilter(tags) {
+    if (!Array.isArray(tags)) return {};
+    const result = {};
+    tags.forEach(t => {
+      if (t === 'Menos de 25€') result['rango-precio'] = 'menos-25';
+      else if (t === 'Entre 25€ y 100€') result['rango-precio'] = 'entre-25-100';
+      else if (t === 'Más de 100€') result['rango-precio'] = 'mas-100';
+      else result.tipo = createSlug(t); // Chef → chef, Jamonero → jamonero, etc.
+    });
+    return result;
+  }
+  const tagFilters = mapTagToFilter(item.tags);
+
+  // Extraer marca de caracteristicas si no está en nivel superior
+  const brandFromCtx = item.caracteristicas?.marca || item.caracteristicas?.Marca || '';
+
+  const id = item.ID_Producto || item.id || createSlug(item.titulo) || createSlug(item.nombre) || createSlug(item.Nombre);
+  const name = item.titulo || item.nombre || item.Nombre || 'Producto sin nombre';
 
   return {
     id,
     name,
-    brand: item.Marca || item.marca || '',
+    brand: item.Marca || item.marca || brandFromCtx || '',
     slug: createSlug(name),
     category: categoryId,
-    price: parseFloat(item.Precio ?? item.precio_actual ?? 0),
+    price: parseFloat(item.Precio ?? item.precio_actual ?? item.precio ?? 0),
     originalPrice: item.Precio_Original ?? item.precio_original ?? null,
     currency: item.Moneda ?? 'EUR',
-    rating: parseFloat(item.Valoracion ?? item.valoracion ?? 0),
-    reviewCount: parseInt(item.Resenas ?? item.resenas ?? 0),
-    image: item.Imagen_URL ?? item.imagen_url ?? '/assets/img/default-product.jpg',
+    rating: parseFloat(item.Valoracion ?? item.valoracion ?? item.puntuacion ?? 0),
+    reviewCount: parseInt(item.Resenas ?? item.resenas ?? item.reviews ?? 0),
+    image: item.Imagen_URL ?? item.imagen_url ?? item.imagen ?? '/assets/img/default-product.jpg',
     gallery: [],
     description: item.Descripcion || item.descripcion || autoDescription,
     features,
@@ -165,13 +188,13 @@ function normalizeFeedProduct(item, categoryId, globalFilters = {}) {
     combustible: item.combustible || globalFilters.combustible || null,
     material: item.material || globalFilters.material || null,
     uso: item.uso || globalFilters.uso || null,
-    tipo: item.tipo || null,
-    'rango-precio': item['rango-precio'] || null,
+    tipo: item.tipo || tagFilters.tipo || null,
+    'rango-precio': item['rango-precio'] || tagFilters['rango-precio'] || null,
     pros: item.Pros || item.pros || aiBlock.pros || [],
     cons: item.Contras || item.cons || aiBlock.contras || [],
     gancho: item.Gancho || item.gancho || aiBlock.gancho || null,
     veredicto: item.Veredicto || item.veredicto || aiBlock.veredicto || null,
-    affiliateUrl: item.URL_Afiliado || item.url_afiliado || '',
+    affiliateUrl: item.URL_Afiliado || item.url_afiliado || item.enlace || '',
     asin: item.ASIN || item.asin || '',
     stock: item.Stock !== false,
     featured: !!item.destacado_tag || item.Destacado === true || item.featured === true,

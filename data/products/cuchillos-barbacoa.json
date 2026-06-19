@@ -29,13 +29,25 @@
     },
     "material": "acero-inoxidable",
     "uso": "profesional",
-    "pros": ["Excelente retención de filo", "Equilibrio perfecto", "Cómodo incluso tras horas de uso"],
-    "cons": ["Precio elevado", "Requiere mantenimiento regular"],
+    "pros": [
+      "Excelente retención de filo",
+      "Equilibrio perfecto",
+      "Cómodo incluso tras horas de uso"
+    ],
+    "cons": [
+      "Precio elevado",
+      "Requiere mantenimiento regular"
+    ],
     "affiliateUrl": "https://www.amazon.es/dp/B001D7PYL2?tag=luismi-21",
     "asin": "B001D7PYL2",
     "stock": true,
     "featured": true,
-    "tags": ["cuchillos", "chef", "profesional", "acero-aleman"]
+    "tags": [
+      "cuchillos",
+      "chef",
+      "profesional",
+      "acero-aleman"
+    ]
   },
   {
     "id": "cuchillo-deshuesar",
@@ -66,13 +78,25 @@
     },
     "material": "acero-inoxidable",
     "uso": "domestico",
-    "pros": ["Relación calidad-precio", "Mango antideslizante", "Ligero"],
-    "cons": ["No apto para lavavajillas", "Acero más blando"],
+    "pros": [
+      "Relación calidad-precio",
+      "Mango antideslizante",
+      "Ligero"
+    ],
+    "cons": [
+      "No apto para lavavajillas",
+      "Acero más blando"
+    ],
     "affiliateUrl": "https://www.amazon.es/dp/B000I1Y8X0?tag=luismi-21",
     "asin": "B000I1Y8X0",
     "stock": true,
     "featured": false,
-    "tags": ["cuchillos", "deshuesar", "victorinox", "economico"]
+    "tags": [
+      "cuchillos",
+      "deshuesar",
+      "victorinox",
+      "economico"
+    ]
   },
   {
     "id": "cuchillo-jamon",
@@ -80,8 +104,8 @@
     "brand": "Arcos",
     "slug": "cuchillo-jamonero-arcos",
     "category": "cuchillos-barbacoa",
-    "price": 42.50,
-    "originalPrice": 54.00,
+    "price": 42.5,
+    "originalPrice": 54,
     "currency": "EUR",
     "rating": 4.3,
     "reviewCount": 156,
@@ -103,12 +127,68 @@
     },
     "material": "acero-inoxidable",
     "uso": "profesional",
-    "pros": ["Muy afilado", "Flexible para cortes finos", "Económico"],
-    "cons": ["Mango algo justo", "Se desafila con uso intensivo"],
+    "pros": [
+      "Muy afilado",
+      "Flexible para cortes finos",
+      "Económico"
+    ],
+    "cons": [
+      "Mango algo justo",
+      "Se desafila con uso intensivo"
+    ],
     "affiliateUrl": "https://www.amazon.es/dp/B01N6Q8K5Y?tag=luismi-21",
     "asin": "B01N6Q8K5Y",
     "stock": true,
     "featured": false,
-    "tags": ["cuchillos", "jamon", "arcos", "nitrum"]
+    "tags": [
+      "cuchillos",
+      "jamon",
+      "arcos",
+      "nitrum"
+    ]
+  },
+  {
+    "id": "cuchillo-arcos-universal-20",
+    "name": "Arcos Serie Universal - Cuchillo de Cocinero de 200 mm",
+    "brand": "Arcos",
+    "slug": "arcos-serie-universal-cuchillo-de-cocinero-de-200-mm",
+    "category": "cuchillos-barbacoa",
+    "price": 22.95,
+    "originalPrice": null,
+    "currency": "EUR",
+    "rating": 4.7,
+    "reviewCount": 660,
+    "image": "https://m.media-amazon.com/images/I/41LKcv-Q2iL._AC_SL1383_.jpg",
+    "gallery": [],
+    "description": "tipo: Chef / Cocinero. material: Acero Inoxidable NITRUM. origen: España",
+    "features": [
+      "tipo: Chef / Cocinero",
+      "material: Acero Inoxidable NITRUM",
+      "origen: España",
+      "garantia: 10 años"
+    ],
+    "specs": {
+      "tipo": "Chef / Cocinero",
+      "material": "Acero Inoxidable NITRUM",
+      "origen": "España",
+      "garantia": "10 años"
+    },
+    "combustible": null,
+    "material": "acero-inoxidable",
+    "uso": null,
+    "tipo": "chef",
+    "rango-precio": "menos-25",
+    "pros": [],
+    "cons": [],
+    "gancho": null,
+    "veredicto": null,
+    "affiliateUrl": "https://amzn.to/3QSkb6r",
+    "asin": "",
+    "stock": true,
+    "featured": false,
+    "featuredTag": null,
+    "tags": [
+      "cuchillos-barbacoa"
+    ]
   }
 ]

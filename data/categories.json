@@ -7,7 +7,7 @@
     "parent": null,
     "image": "/assets/img/cat-cuchillos.jpg",
     "tags": ["barbacoa", "cuchillos", "cocina", "carne"],
-    "filters": ["material", "uso"]
+    "filters": ["tipo", "rango-precio", "material"]
   },
   {
     "id": "parrillas",
