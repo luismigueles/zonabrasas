@@ -43,6 +43,27 @@
       "material": "acero-vitrificado",
       "uso": "portatil",
       "tags": ["Portátil", "Menos de 100€"]
+    },
+    {
+      "id": "proq-frontier-v4",
+      "categoria": "parrillas",
+      "titulo": "ProQ Frontier V4 - Ahumador Vertical y Barbacoa 4 en 1 (Ø 43 cm)",
+      "marca": "ProQ",
+      "imagen": "https://m.media-amazon.com/images/I/61rgOZ3h53L._AC_SL1500_.jpg",
+      "enlace": "https://amzn.to/4w06aTh",
+      "precio": 464.57,
+      "valoracion": 4.6,
+      "reviews": 66,
+      "caracteristicas": {
+        "tipo": "Ahumador / Bala",
+        "combustible": "Carbón",
+        "material": "Acero de 1mm Recubierto de Porcelana",
+        "origen": "Diseño UK / Importado",
+        "garantia": "10 años"
+      },
+      "combustible": "carbon",
+      "material": "acero-vitrificado",
+      "tags": ["Ahumador", "Más de 100€"]
     }
   ]
 }
