@@ -19,6 +19,25 @@
       },
       "material": "acero-aluminizado",
       "tags": ["Encendido", "Más de 25€"]
+    },
+    {
+      "id": "cepillo-auxhcyl-3en1",
+      "categoria": "accesorios",
+      "titulo": "AUXHCYL 3-in-1 - Cepillo de Limpieza para Parrilla con Raspador (45.5 cm)",
+      "marca": "AUXHCYL",
+      "imagen": "https://m.media-amazon.com/images/I/81DnhxPElPL._AC_SL1500_.jpg",
+      "enlace": "https://amzn.to/4uLFNzi",
+      "precio": 14.99,
+      "valoracion": 4.5,
+      "reviews": 864,
+      "caracteristicas": {
+        "tipo": "Cepillo de Limpieza / Raspador",
+        "material": "Acero Inoxidable y Polipropileno",
+        "origen": "Importado",
+        "garantia": "Garantía del fabricante"
+      },
+      "material": "acero-inoxidable",
+      "tags": ["Limpieza", "Menos de 25€"]
     }
   ]
 }

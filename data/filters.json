@@ -46,7 +46,8 @@
       { "id": "jamonero", "name": "Jamonero" },
       { "id": "deshuesador", "name": "Deshuesador" },
       { "id": "filetear", "name": "Fileteador / Carnicero" },
-      { "id": "encendido", "name": "Encendido" }
+      { "id": "encendido", "name": "Encendido" },
+      { "id": "limpieza", "name": "Limpieza / Cepillo" }
     ]
   },
   {
