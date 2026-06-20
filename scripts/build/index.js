@@ -62,7 +62,7 @@ async function build() {
     categories,
     comparisons,
     allFilters,
-    featured: allProducts.filter(p => p.featured)
+    featured: siteConfig.site.featuredIds.map(id => allProducts.find(p => p.id === id)).filter(Boolean)
   });
 
   // Generate category pages

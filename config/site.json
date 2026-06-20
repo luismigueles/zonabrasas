@@ -4,7 +4,8 @@
     "url": "https://zonabrasas.com",
     "lang": "es",
     "description": "Comparativas y recomendaciones de productos con análisis detallado",
-    "logo": "/assets/img/logo.png"
+    "logo": "/assets/img/logo.png",
+    "featuredIds": ["cuchillo-arcos-universal-20", "weber-compact-kettle-57", "weber-rapidfire-7416"]
   },
   "feeds": {
     "directory": "data/feeds",
