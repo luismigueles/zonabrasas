@@ -38,6 +38,24 @@
       },
       "material": "acero-inoxidable",
       "tags": ["Limpieza", "Menos de 25€"]
+    },
+    {
+      "id": "guantes-reinalin-termicos",
+      "categoria": "accesorios",
+      "titulo": "Reinalin - Guantes de Barbacoa Resistentes al Calor (Hasta 500°C)",
+      "marca": "Reinalin",
+      "imagen": "https://m.media-amazon.com/images/I/71THYXMrNeL._AC_SL1500_.jpg",
+      "enlace": "https://amzn.to/4emEp1b",
+      "precio": 16.99,
+      "valoracion": 4.4,
+      "reviews": 5310,
+      "caracteristicas": {
+        "tipo": "Guantes Térmicos / Protección",
+        "material": "Tejido de Aramida, Silicona y Algodón",
+        "origen": "Importado",
+        "garantia": "Garantía del fabricante"
+      },
+      "tags": ["Protección", "Menos de 25€"]
     }
   ]
 }

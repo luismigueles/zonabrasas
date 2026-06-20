@@ -47,7 +47,8 @@
       { "id": "deshuesador", "name": "Deshuesador" },
       { "id": "filetear", "name": "Fileteador / Carnicero" },
       { "id": "encendido", "name": "Encendido" },
-      { "id": "limpieza", "name": "Limpieza / Cepillo" }
+      { "id": "limpieza", "name": "Limpieza / Cepillo" },
+      { "id": "proteccion", "name": "Protección / Guantes" }
     ]
   },
   {
