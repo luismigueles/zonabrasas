@@ -16,6 +16,7 @@
     "name": "Material",
     "icon": "⚙️",
     "options": [
+      { "id": "acero-aluminizado", "name": "Acero aluminizado" },
       { "id": "acero-inoxidable", "name": "Acero inoxidable" },
       { "id": "acero-vitrificado", "name": "Acero vitrificado" },
       { "id": "hierro-fundido", "name": "Hierro fundido" },
@@ -44,7 +45,8 @@
       { "id": "chef", "name": "Chef / Cocinero" },
       { "id": "jamonero", "name": "Jamonero" },
       { "id": "deshuesador", "name": "Deshuesador" },
-      { "id": "filetear", "name": "Fileteador / Carnicero" }
+      { "id": "filetear", "name": "Fileteador / Carnicero" },
+      { "id": "encendido", "name": "Encendido" }
     ]
   },
   {

@@ -27,7 +27,7 @@
     "parent": null,
     "image": "/assets/img/cat-accesorios.jpg",
     "tags": ["barbacoa", "accesorios", "utensilios"],
-    "filters": ["material", "uso"]
+    "filters": ["material", "uso", "tipo", "rango-precio"]
   },
   {
     "id": "termometros",

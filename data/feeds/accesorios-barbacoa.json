@@ -1,0 +1,24 @@
+{
+  "categoria": "accesorios-barbacoa",
+  "productos": [
+    {
+      "id": "weber-rapidfire-7416",
+      "categoria": "accesorios",
+      "titulo": "Weber Rapidfire 7416 - Chimenea de Encendido para Carbón",
+      "marca": "Weber",
+      "imagen": "https://m.media-amazon.com/images/I/81hFML-GdLL._AC_SL1500_.jpg",
+      "enlace": "https://amzn.to/4eIlxJ8",
+      "precio": 38.67,
+      "valoracion": 4.8,
+      "reviews": 28227,
+      "caracteristicas": {
+        "tipo": "Chimenea de Encendido",
+        "material": "Acero Aluminizado",
+        "origen": "Diseño USA / Fabricado por Weber",
+        "garantia": "Garantía del fabricante"
+      },
+      "material": "acero-aluminizado",
+      "tags": ["Encendido", "Más de 25€"]
+    }
+  ]
+}
